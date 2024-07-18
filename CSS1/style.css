@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+}
+ul li{
+    display: inline-block;
+    /* border: 2px solid red; */
+    margin: 10px;
+    
+}
+ul{
+    text-align: center;
+    /* border: 2px solid black; */
+    margin: 0px;
+    padding: 5px;
+}
+#li1{
+    margin-right: 650px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+#li2{
+    margin-left: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-bar:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.nav-bar{
+    padding: 5px 5px;
+    /* font-family:  'Trebuchet MS',Arial, sans-serif ; */
+    
+}
+.container{
+    background-image:url("../Images/laptop3.jpg");
+    background-position: center; /*Center the image */
+    background-repeat: no-repeat; /*  Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    width: 100%;
+    height: 500px;
+    margin: 0px ;
+}
+.container .child-container{
+    text-align: center;
+}
+.container .child-container .text-1{
+    color: white;
+}
+.container .child-container h1{
+    font-size: 45px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+#container-fluid {
+    width: 100%;
+    height: 405px;
+    /* border: 10px solid red; */
+    text-align: center;
+    /* background-color: rgb(210, 234, 255); */
+}
+#container-fluid .small-container-fluid{
+    display: inline-block;
+    width: 17%;
+    height: 300px;
+    /* border: 2px solid black; */
+    margin-top: 70px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#container-fluid .small-container-fluid .icon{
+color: white;
+background-color: rgb(178, 114, 238);
+font-size: 30px;
+text-align: center;
+border-radius: 50%;
+padding: 30px;
+/* border: 2px solid red; */
+}
+#container-fluid .small-container-fluid h1{
+    color: blueviolet;
+    font-size: 21px;
+    margin-top: 14px;
+    /* border: 2px solid red; */
+}
+#container-fluid .small-container-fluid p{
+    text-align: justify;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: 22px;
+    /* border: 2px solid red; */
+}
+#container-fluid2{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(207, 231, 231);
+    /* display: inline; */
+}
+#container-fluid2 #container-fluid-small2{
+    height: 500px;
+    width: 100%;
+    border: 2px solid red;
+    /* display: inline-block; */
+    text-align: center;
+}
+#container-fluid2 #container-fluid-small2 .cont{
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+    height: 300px;
+    border: 2px solid black;
+    /* margin: auto; */
+
+}
+#container-fluid2 #container-fluid-small2 #cont1 img{
+    width: 40%;
+    margin-left: 600px;
+    margin-bottom: 400px;
+}
+/* #container-fluid2 #container-fluid-small2 #cont2{
+    margin-top: 40px;
+} */
+#container-fluid2 #container-fluid-small2 #cont1 p{
+    text-align: justify;
+/* font-family: 'Trebuchet MS', sans-serif; */
+}
+#container-fluid2 #container-fluid-small2 #cont1 button{
+    font-size: 17px;
+    font-weight: bold;
+/* font-family: 'Trebuchet MS', sans-serif; */
+    text-transform: uppercase;
+    text-align: left;
+    padding: 8px 52px ;
+    border: none;
+    cursor: pointer;
+}
+#container-fluid2 #container-fluid-small2 #cont1 button:hover{
+    background-color: black;
+    color: white;
+    /* transform: scale(1.1); */
+}
+/* #container-fluid2 #container-fluid-small2 #cont2 img{
+    border-radius: 5%;
+    width: 80%;
+    height: fit-content;
+} */
